@@ -1,8 +1,28 @@
-.card-container{
+:root{
+    --primary-color: orange;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
 
 }
+.card-container{
+    border: 1px solid #000;
+    max-width: 1200px;
+    width: 90%;
+    display: grid;
+    margin: 2rem;
+    
+}
 .card{
-
+    /* border: 1px solid #000; */
+    /* height: 200px; */
+    background-color: var(--primary-color);
 }
 .card-link{
 
@@ -32,5 +52,5 @@
 
 }
 .card-date{
-    
+
 }
