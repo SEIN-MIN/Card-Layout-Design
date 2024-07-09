@@ -40,7 +40,7 @@
   
     &:hover {
       box-shadow: 3px 6px 30px #333;
-      transform: translateY(-5px);
+      transform: translateX(-5px);
     }
   }
   
